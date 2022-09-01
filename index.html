@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main">
+        <header>
+            <h1>
+                Fórmula de segundo grado            
+            </h1>
+        </header>
+        <section>
+            <div>
+                <h2>Bhaskara</h2>
+            </div>
+            <article>
+            <form class="form" id="form">
+                <label for="a">
+                    Ingrese el valor de a:
+                <input name="a" id="a" placeholder="valor de a" type="number" />
+                </label>
+                <label for="b">
+                    Ingrese el valor de b:
+                <input name="b" id="b" placeholder="valor de b" type="number" />
+                </label>
+                <label for="c">
+                    Ingrese el valor de c:
+                <input name="c" id="c" placeholder="valor de c" type="number" />
+                </label>
+                
+                <button id="btn" type="button" onclick="bhaskara()">Calcular</button>
+                
+                <p id="resultado"></p>
+            </form>
+        </section>
+    </main>
+    <script src="./bhaskaras.js"></script>
+</body>
+</html>
